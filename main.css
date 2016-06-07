@@ -1,0 +1,187 @@
+@import "../fonts/fonts.css";
+
+body{
+  font-size: 17px;
+  font-family: 'FS Elliot Pro', sans-serif;
+  color: #191a1b;
+  font-weight: 300;
+}
+
+
+
+/* Links */
+a{
+  color: #191a1b;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+/*a.link span{
+  border-bottom: 1px solid #191a1b;
+}*/
+a.no_underline:hover{
+  border-bottom: 0 solid transparent;
+}
+a:hover{
+  transition: all 0.2s ease-in;
+  color: #2f333b;
+  text-decoration: none;
+  border-bottom: 1px solid #2f333b;
+}
+
+/* Headers */
+h1{
+  font-size: 42px;
+  line-height: 48px;
+}
+h2{
+  font-size: 33px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 30px;
+  line-height: 33px;
+  color: #fff;
+}
+h4{
+  font-size: 23px;
+  line-height: 26px;
+}
+h5{
+  font-size: 20px;
+  line-height: 21px;
+}
+
+p{
+  line-height: 24px;
+  color: #4e4e4f;
+}
+.offer-categories .offer .offer-description a{
+  font-size: 27px;
+  line-height: 29px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: none;
+  padding: 15px 0;
+}
+
+/* Icons */
+[class^=icon-]{
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: middle;
+  line-height: 1;
+  background-size: cover;
+}
+
+.icon-phone{
+  width: 12px;
+  height: 12px;
+  background: url("../images/icon-phone.png") left top no-repeat;
+}
+.icon-search{
+  width: 13px;
+  height: 13px;
+  background: url("../images/icon-search.png") left top no-repeat;
+}
+.icon-language{
+  width: 13px;
+  height: 14px;
+  background: url("../images/icon-language.png") left top no-repeat;
+}
+.icon-login{
+  width: 17px;
+  height: 14px;
+  background: url("../images/icon-login.png") left top no-repeat;
+}
+.icon-left{
+  width: 22px;
+  height: 13px;
+  background: url("../images/arrow-left-gray.png") left top no-repeat;
+}
+
+.icon-shoes{
+  width: 53px;
+  height: 32px;
+  background: url("../images/arrow-left.png") left top no-repeat;
+}
+.icon-share{
+  width: 53px;
+  height: 32px;
+  background: url("../images/arrow-dark-box.png") no-repeat;
+}
+.icon-point{
+  width: 41px;
+  height: 15px;
+  background: url("../images/icon-point.png") no-repeat;
+}
+.icon-send{
+  width: 37px;
+  height: 32px;
+  background: url("../images/icon-send.png") no-repeat;
+}
+.icon-position{
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-position.png") no-repeat;
+}
+.icon-phone_circle{
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-phone_circle.png") no-repeat;
+}
+.icon-email{
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-email.png") no-repeat;
+}
+.icon-vk{
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-vk.png") no-repeat;
+}
+.icon-fb{
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-fb.png") no-repeat;
+}
+.reviews .icon-point{
+  width: 60px;
+}
+/* transform image*/
+.turn-right{
+   -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/*button*/
+.button{
+  margin:25px auto;
+  cursor: pointer;
+  display:block;
+  width: 50px;
+  height: 30px;
+}
+.btn-arrow{
+  width: 49px;
+  height: 28px;
+  display: inline-block;
+  background: url("../images/btn-arrow.png");
+}
+.btn-arrow:hover{
+  background-position: 0 -28px;
+}
+.button-white{
+  background: url("../images/arrow-left.png") no-repeat;
+}
+.button-gray{
+  background: url("../images/arrow-dark-box.png") no-repeat;
+}
+.border{
+ border-top: 1px solid #e7e9eb ;
+}
